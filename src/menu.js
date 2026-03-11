@@ -15,10 +15,12 @@ export function loadMenu(){
         const tittle = document.createElement('h2');
         tittle.textContent = item.name;
 
-        const description = document.createElement('h5');
+        const description = document.createElement('h4');
         description.textContent = item.desc;
 
-        content.appendChild(tittle);
-        content.appendChild(description);
+        card.appendChild(tittle);
+        card.appendChild(description);
+
+        content.appendChild(card);
     })
 }
