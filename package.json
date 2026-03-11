@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "webpack serve --open",
-    "build": "webpack"
+    "build": "webpack",
+    "sync-pages": "git checkout gh-pages && git merge main --no-edit"
   },
   "repository": {
     "type": "git",
