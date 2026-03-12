@@ -10,7 +10,7 @@ export function loadHome() {
     tittle.textContent = "Come check the best chicken in Lima! You are gonna lick your fingers!";
     deal.src = chicken;
     deal.alt = 'Banner del restaurante';
-    offer.textContent = 'We are the "Chicken slayers" restaurant THIS IS A TEST MESSAGE';
+    offer.textContent = 'We are the "Chicken slayers" restaurant THIS IS A TEST MESSAGE NUMBER 2';
 
     banner.appendChild(tittle);
     banner.appendChild(deal);
